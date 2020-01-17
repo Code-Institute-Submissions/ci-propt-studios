@@ -1,0 +1,19 @@
+/* Project background colours */
+
+.bg-propt-orange {
+    background-color: #ffb810;
+}
+
+.bg-propt-smokeyblack {
+    background-color: #1b1b1b;
+}
+
+/* Navbar styles */
+
+.nav-link.active {
+    color: #ffb810 !important;
+}
+
+.nav-link:hover {
+    color: #ffb810 !important;
+}
