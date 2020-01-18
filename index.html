@@ -7,14 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/2f59828723.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>ProPT Studios</title>
 </head>
 
 <body>
     <!-- Navigaion bar -->
-    <nav class="navbar navbar-dark navbar-expand-sm bg-propt-smokeyblack">
-        <a href="/" class="navbar-brand">ProPT Studios</a>
+    <nav class="navbar navbar-dark navbar-expand-sm bg-smokeyblack">
+        <img src="/assets/images/logo.png" class="navbar-brand">
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,20 +32,50 @@
     </nav>
     <!-- / Navigation bar -->
     <!-- Jumbotron -->
-    <div class="container-fluid">
-        <div class="row jumbotron-container">
-            <div class="col-sm-12 col-lg-7 callout-container">
-                <div class="callout-content">
-                <h1>We deliver <span class="highlight-text">results</span>.</h1>
-                <p class="lead">Offering best in class personal training for all ages!</p>
-                <button type="button" class="btn btn-propt">Click here to learn more</button>
+    <section class="landingpage-jumbotron">
+        <div class="container-fluid">
+            <div class="row jumbotron-container">
+                <div class="col-sm-12 col-lg-7 callout-container">
+                    <div class="callout-content">
+                        <h1>We deliver <span class="text-highlight">results</span>.</h1>
+                        <p class="lead">Offering best in class personal training for all ages!</p>
+                        <button type="button" class="btn btn-propt">Click here to learn more</button>
+                    </div>
+                </div>
+                <div class="d-none d-lg-block col-5 image-container"></div>
             </div>
-            </div>
-            <div class="d-none d-lg-block col-5 image-container"></div>
         </div>
-    </div>
-    </div>
+        </div>
+    </section>
     <!-- / Jumbotron -->
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid footer-container">
+            <div class="row">
+                <div class="col-1 footer-left-logo">
+                    <img src="assets/images/logo.png" class="footer-logo" alt="Logo">
+                </div>
+                <div class="col-3 footer-left-address">
+                    <address>
+                       <p class="address">
+                        Main Street </br> 
+                        Loughsallagh, Clonee, </br>
+                        Co. Meath
+                       </p>
+                    </address>
+                </div>
+                <div class="col-3 ml-auto footer-right">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fab fa-facebook-f"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-twitter"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-instagram"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-snapchat-ghost"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- / Footer -->
     <!-- Bootstrap required JavaScript -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
