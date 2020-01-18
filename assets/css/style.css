@@ -1,5 +1,24 @@
-/* Project background colours */
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900&display=swap');
+/* / Imports */
 
+/* Project fonts */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    color: #fff;
+}
+.lead {
+    color: #ffb810;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* / Project fonts */
+
+/* Project background colours */
 .bg-propt-orange {
     background-color: #ffb810;
 }
@@ -7,13 +26,52 @@
 .bg-propt-smokeyblack {
     background-color: #1b1b1b;
 }
+/* / Project background colours */
 
 /* Navbar styles */
-
 .nav-link.active {
     color: #ffb810 !important;
 }
 
 .nav-link:hover {
     color: #ffb810 !important;
+}
+/* / Navbar styles */
+
+/* Jumbotron styles */
+
+.callout-container {
+    background-color: #1b1b1b;
+    height: 50vh;
+    padding-left: 5vh;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.image-container {
+    height: 50vh;
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
+.highlight-text {
+    color: #fff;
+}
+
+.btn-propt {
+    background-color: #1b1b1b;
+    border: 1.5px solid #ffb810;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.btn-propt:hover {
+    background-color: #ffb810;
+    color: #fff;
+    border: 1.5px solid #000000;
+    border-radius: 15px;
 }
