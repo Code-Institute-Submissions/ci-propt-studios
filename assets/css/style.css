@@ -1,6 +1,12 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900&display=swap');
 /* / Imports */
+
+body {
+overflow-y: hidden; 
+overflow-x: hidden;
+}
 
 /* Background colours */
 
@@ -10,17 +16,19 @@
 
 /* Project fonts */
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 h1 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 900;
     color: #fff;
+    font-size: 350%;
 }
 .lead {
     color: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lato', sans-serif;
+    word-wrap: break-word;
 }
 /* / Project fonts */
 
@@ -45,11 +53,10 @@ h1 {
 .callout-container {
     background-color: #1b1b1b;
     height: 50vh;
-    padding-right: 0;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-bottom: 20px;
 }
 
 .text-highlight {
@@ -79,6 +86,7 @@ h1 {
     background-color: #1b1b1b;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .img-fluid {
@@ -88,4 +96,65 @@ h1 {
 
 /* Footer styles */
 
+.footer-container {
+    background-color: #1b1b1b;
+    margin-top: 20px;
+    padding: 0;
+}
+
+footer h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    font-size: 130%;
+}
+
+footer p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 75%;
+}
+
+.footer-logo {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px; 
+    height: 50px;
+    width: auto;
+}
+
+.footer-socials {
+    padding-top: 2.5vh;
+}
+
+.footer-socials i {
+    font-size: 30px;
+    color: #fff;
+    padding: 0 10px 2vh 0;
+}
+
+
+.footer-socials i:hover {
+    color: #ffb810;
+}
 /* Footer styles */
+
+
+
+/* Custom media queries */
+
+/* Padding settings for small devices where text alignemnt changes */
+@media (max-width: 576px) {
+    .callout-content {
+    padding: 10px;
+    margin: 0;
+}
+
+    .footer-socials {
+    padding-top: 0; 
+}
+}
