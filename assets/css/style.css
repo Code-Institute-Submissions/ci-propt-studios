@@ -34,7 +34,7 @@ h1 {
 }
 
 .navbar-brand {
-    height: 100px;
+    height: 75px;
     width: auto;
     padding-left: 2vh;
 }
@@ -45,39 +45,47 @@ h1 {
 .callout-container {
     background-color: #1b1b1b;
     height: 50vh;
-    padding-left: 5vh;
     padding-right: 0;
     display: flex;
     align-items: center;
     justify-content: left;
     margin-bottom: 20px;
-
-}
-
-.image-container { 
-    height: 50vh;
-    background-color: yellow;
-    margin: 0;
-    padding: 0;
 }
 
 .text-highlight {
     color: #ffb810;
 }
 
-.btn-propt {
+.btn-cta {
     background-color: #1b1b1b;
     border: 1.5px solid #ffb810;
-    border-radius: 15px;
+    border-radius: 10px;
     color: #fff;
 }
 
-.btn-propt:hover {
+.btn-cta:hover {
     background-color: #ffb810;
     color: #fff;
-    border: 1.5px solid #000000;
-    border-radius: 15px;
+    border: 1.5px solid #000;
+    border-radius: 10px;
+}
+.callout-content {
+    padding-right: 10px;
+    padding-left: 50px;
+}
+
+.image-container { 
+    height: 50vh;
+    background-color: #1b1b1b;
+    margin: 0;
+    padding: 0;
+}
+
+.img-fluid {
+    height: 100%;
+    width: 65%;
 }
 
 /* Footer styles */
 
+/* Footer styles */
