@@ -4,8 +4,7 @@
 /* / Imports */
 
 body {
-overflow-y: hidden; 
-overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 /* Background colours */
@@ -25,11 +24,13 @@ h1 {
     color: #fff;
     font-size: 350%;
 }
+
 .lead {
     color: #fff;
     font-family: 'Lato', sans-serif;
     word-wrap: break-word;
 }
+
 /* / Project fonts */
 
 /* Navbar styles */
@@ -46,6 +47,7 @@ h1 {
     width: auto;
     padding-left: 2vh;
 }
+
 /* / Navbar styles */
 
 /* Jumbotron styles */
@@ -76,12 +78,13 @@ h1 {
     border: 1.5px solid #000;
     border-radius: 10px;
 }
+
 .callout-content {
     padding-right: 10px;
     padding-left: 50px;
 }
 
-.image-container { 
+.image-container {
     height: 50vh;
     background-color: #1b1b1b;
     margin: 0;
@@ -122,7 +125,7 @@ footer p {
 .footer-logo {
     margin-top: 20px;
     margin-left: 20px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     height: 50px;
     width: auto;
 }
@@ -141,20 +144,23 @@ footer p {
 .footer-socials i:hover {
     color: #ffb810;
 }
+
 /* Footer styles */
 
+/* Index.html main section styles */
+
+/* / Index.html main section styles */
 
 
 /* Custom media queries */
-
 /* Padding settings for small devices where text alignemnt changes */
 @media (max-width: 576px) {
     .callout-content {
-    padding: 10px;
-    margin: 0;
-}
+        padding: 10px;
+        margin: 0;
+    }
 
     .footer-socials {
-    padding-top: 0; 
-}
+        padding-top: 0;
+    }
 }
