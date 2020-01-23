@@ -97,6 +97,29 @@ h1 {
     width: 70%;
 }
 
+/* Main section styles */
+
+.card-container {
+    padding: 10px;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.card-text {
+    font-family: 'Lato', sans-serif;
+}
+
+.quote1-container {
+    background-color: #ffb810;
+}
+
 /* Footer styles */
 
 .footer-container {
