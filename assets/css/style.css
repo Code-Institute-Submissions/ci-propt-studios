@@ -18,7 +18,7 @@ body {
     background-color: #1b1b1b;
 }
 
-/* Project fonts */
+/* Project fonts & global text styles */
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -34,6 +34,10 @@ h1 {
     color: #fff;
     font-family: 'Lato', sans-serif;
     word-wrap: break-word;
+}
+
+h2 {
+    margin: 10px;
 }
 
 /* / Project fonts */
@@ -140,6 +144,8 @@ h1 {
 .testemonials-container {
     background-color: #1b1b1b;
     color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 .testemonial-image {
@@ -149,12 +155,8 @@ h1 {
     border-radius: 100px;
 }
 
-.testemonial-left {
-word-wrap: break-word;
-}
-
-.testemonial-right {
- word-wrap: break-word;
+.testemonials-wrapper {
+    margin: 20px;
 }
 
 /* / Main sections styles */
@@ -221,5 +223,4 @@ footer p {
     .footer-socials {
         padding-top: 0;
     }
-    
 }
