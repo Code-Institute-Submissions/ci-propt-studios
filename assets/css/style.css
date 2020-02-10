@@ -147,8 +147,17 @@ h1 {
     height: 100px;
     border: 2px solid #ffb810;
     border-radius: 100px;
-    display: inline;
 }
+
+.testemonial-left {
+word-wrap: break-word;
+}
+
+.testemonial-right {
+ word-wrap: break-word;
+}
+
+/* / Main sections styles */
 
 /* Footer styles */
 
@@ -200,10 +209,6 @@ footer p {
 
 /* Footer styles */
 
-/* Index.html main section styles */
-
-/* / Index.html main section styles */
-
 
 /* Custom media queries */
 /* Padding settings for small devices where text alignemnt changes */
@@ -216,4 +221,5 @@ footer p {
     .footer-socials {
         padding-top: 0;
     }
+    
 }
