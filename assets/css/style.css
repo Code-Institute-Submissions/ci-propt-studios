@@ -119,6 +119,11 @@ h2 {
 
 .card-title {
     font-weight: 600;
+    font-size: 175%;
+}
+
+span.card-letter {
+    color: #ffb810;
 }
 
 .card-body {
