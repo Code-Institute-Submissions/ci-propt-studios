@@ -6,7 +6,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     overflow-x: hidden;
@@ -37,7 +37,7 @@ h1 {
 }
 
 h2 {
-    margin: 10px;
+    margin: 15px;
 }
 
 /* / Project fonts */
@@ -107,6 +107,8 @@ h2 {
 
 /* Main section styles */
 
+/* Card styling */
+
 .card-container {
     padding: 15px;
 }
@@ -133,6 +135,7 @@ span.card-highlight {
     border-radius: 10px;
 }
 
+/* / Card styling */
 
 .testemonials-container {
     background-color: #1b1b1b;
@@ -146,11 +149,16 @@ span.card-highlight {
     height: 100px;
     border: 2px solid #ffb810;
     border-radius: 100px;
+    margin: 10px;
 }
 
-.testemonials-wrapper {
-    margin: 20px;
+.testemonial-1,
+.testemonial-2 {
+    margin-bottom: 15px;
 }
+
+
+/* / Testemonials stling */
 
 /* / Main sections styles */
 
