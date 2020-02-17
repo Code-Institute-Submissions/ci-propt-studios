@@ -110,7 +110,7 @@ h2 {
 /* Card styling */
 
 .card-container {
-    padding: 15px;
+    justify-content: center;
 }
 
 .card {
@@ -127,12 +127,10 @@ span.card-highlight {
     color: #ffb810;
 }
 
-.card-body {
-    padding-left: 0;
-}
 
 .card-img-top {
-    border-radius: 10px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 }
 
 /* / Card styling */
@@ -144,17 +142,25 @@ span.card-highlight {
     padding: 0;
 }
 
-.testemonial-image {
-    width: 100px;
-    height: 100px;
+img.testemonial-img {
+    width: 175px;
     border: 2px solid #ffb810;
-    border-radius: 100px;
-    margin: 10px;
+    border-radius: 50%;
 }
 
-.testemonial-1,
-.testemonial-2 {
-    margin-bottom: 15px;
+.testemonial,
+.testemonial-content {
+    padding: 15px;
+    margin: 0;
+}
+
+.testemonial-name {
+    font-size: 150%;
+    color: #ffb810;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 0;
+    margin: 0;
 }
 
 
@@ -223,4 +229,12 @@ footer p {
     .footer-socials {
         padding-top: 0;
     }
-}
+
+    .card-text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    img.testemonial-img {
+        width: 125px;
+    }
