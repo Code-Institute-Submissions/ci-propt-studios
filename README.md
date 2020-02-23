@@ -48,8 +48,8 @@ Colour scheme chosen for this project reflects the ProPT branding colours.
 
 | Colour name       | Colour RGB Code    
 | -------------     |:-------------:| 
-| Dark Gunmetal    |#212529
-| Mikado Yellow    |#FFB10
+| Dark Gunmetal     |#212529
+| Mikado Yellow     |#FFB10
 | White             |#FFFFF
 
 Font used throughout is Google font's Lato - https://fonts.google.com/specimen/Lato 
