@@ -37,7 +37,7 @@ h1 {
 }
 
 h2 {
-    margin: 15px;
+    margin: 20px;
 }
 
 /* / Project fonts */
@@ -143,14 +143,14 @@ span.card-highlight {
 }
 
 img.testemonial-img {
-    width: 175px;
+    width: 45%;
     border: 2px solid #ffb810;
     border-radius: 50%;
 }
 
 .testemonial,
 .testemonial-content {
-    padding: 15px;
+    padding: 20px;
     margin: 0;
 }
 
@@ -163,8 +163,43 @@ img.testemonial-img {
     margin: 0;
 }
 
+/* / Testemonials styling */
 
-/* / Testemonials stling */
+/* Trainers styling */
+
+img.trainer-img {
+    width: 45%;
+    border: 2px solid #1b1b1b;
+    border-radius: 50%;
+}
+
+.trainer,
+.trainer-content {
+    padding: 20px;
+    margin: 0;
+}
+
+.trainer-name {
+    font-size: 150%;
+    color: #1b1b1b;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.trainer-socials i {
+    font-size: 30px;
+    color: #1b1b1b;
+    padding: 0 10px 2vh 0;
+}
+
+.trainer-socials i:hover {
+    color: #ffb810;
+}
+
+
+/* / Trainers styling */
 
 /* / Main sections styles */
 
