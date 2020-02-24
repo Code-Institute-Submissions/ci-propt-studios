@@ -71,6 +71,9 @@ The Contact us form curretnly has no action, no email gets sent after the button
 
 ## Technologies Used
 
+1. HTML5
+2. CSS3
+3. Bootstrap v4.4.1
 
 ## Testing
 
