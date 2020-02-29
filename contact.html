@@ -63,18 +63,20 @@
             <div class="col text-center">
                 <form>
                     <label for="name" class="sr-only">Your full name</label>
-                    <input type="text" class="form-control" name="name" id="name" placeholder="Your full name" required> <br>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Your full name" required>
                     <label for="email" class="sr-only">Your email address</label>
-                    <input type="email" class="form-control"  name="email" id="email" placeholder="Your email address" required> <br>
+                    <input type="email" class="form-control"  name="email" id="email" placeholder="Your email address" required> 
                     <label for="phone" class="sr-only">Your phone number (optional)</label>
-                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your phone number (optional)"> <br>
+                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your phone number (optional)">
                     <select name="querytype" class="form-control" id="querytype" required>
+                        <option value="0" aria-hidden>Your query relates to...</option>
                         <option value="personaltraining">Personal training query</option>
                         <option value="classes">Classes query</option>
                         <option value="business">Business query</option>
                         <option value="other">Other query</option>
-                    </select> <br>
-                    <textarea name="message" class="form-control" id="message" cols="50" rows="10" required></textarea>
+                    </select> 
+                    <label for="message" class="sr-only">Your message</label>
+                    <textarea name="message" class="form-control" id="message" cols="50" rows="10" placeholder="Your message" required></textarea>
                 </form>
             </div>
         </div>
