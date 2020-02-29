@@ -10,6 +10,14 @@ body {
     overflow-x: hidden;
 }
 
+::selection {
+    background: #ffb810;
+}
+
+::-moz-selection {
+    background: #ffb810;
+}
+
 /* Background colours */
 
 .bg-smokeyblack {
@@ -102,7 +110,6 @@ h2 {
     height: 100%;
     width: 70%;
 }
-
 
 .img-classes,
 .img-contact {
@@ -258,6 +265,33 @@ footer p {
 
 /* Footer styles */
 
+/* Contact page styles */
+
+.form-control {
+    margin-bottom: 15px;
+    border: 1px solid #ffb810;
+    border-bottom: 3px solid #ffb810;
+}
+
+.form-control:active {
+    border: 1px solid #1b1b1b;
+    border-bottom: 3px solid #1b1b1b;
+}
+
+
+.btn-submit {
+    background-color: #ffb810;
+    border: 1.5px solid #ffb810;
+    border-radius: 10px;
+    color: #1b1b1b;
+    width: 100%;
+}
+
+.btn-submit:hover {
+    border: 1.5px solid #000;
+}
+
+/* /Contact page styles */
 
 /* Custom media queries */
 /* Padding settings for small devices where text alignemnt changes */
