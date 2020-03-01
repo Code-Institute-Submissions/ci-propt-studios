@@ -18,6 +18,10 @@ body {
     background: #ffb810;
 }
 
+p {
+    margin: 0;
+}
+
 /* Background colours */
 
 .bg-smokeyblack {
@@ -221,7 +225,6 @@ img.trainer-img {
 .footer-container {
     background-color: #1b1b1b;
     padding: 0;
-    margin-top: 50px;
 }
 
 footer h3 {
@@ -265,17 +268,34 @@ footer p {
 
 /* Footer styles */
 
+/* Classes & timetables page styles */
+
+.timetable-image {
+    margin-bottom: 15px;
+    width: 75%;
+}
+
+.btn-download {
+    background-color: #ffb810;
+    border: 1.5px solid #ffb810;
+    border-radius: 10px;
+    color: #1b1b1b;
+    width: 50%;
+    margin: 15px;
+}
+
+.btn-submit:hover {
+    border: 1.5px solid #000;
+}
+
+/* / Classes & timetables page styles */
+
 /* Contact page styles */
 
 .form-control {
     margin-bottom: 15px;
     border: 1px solid #ffb810;
     border-bottom: 3px solid #ffb810;
-}
-
-.form-control:active {
-    border: 1px solid #1b1b1b;
-    border-bottom: 3px solid #1b1b1b;
 }
 
 
