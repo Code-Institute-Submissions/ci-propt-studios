@@ -305,6 +305,7 @@ footer p {
     border-radius: 10px;
     color: #1b1b1b;
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .btn-submit:hover {
