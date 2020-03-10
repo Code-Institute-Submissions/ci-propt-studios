@@ -1,6 +1,7 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css?family=Lato:400,900&display=swap');
-/* / Imports */
+
+/* General styles */
 
 html {
     scroll-behavior: smooth;
@@ -50,8 +51,6 @@ h2 {
     margin: 20px;
 }
 
-/* / Project fonts */
-
 /* Navbar styles */
 .nav-link.active {
     color: #ffb810 !important;
@@ -65,8 +64,6 @@ h2 {
     height: 90px;
     width: auto;
 }
-
-/* / Navbar styles */
 
 /* Jumbotron styles */
 
@@ -122,11 +119,7 @@ h2 {
     width: 70%;
 }
 
-/* / Jumbotron styles */
-ß
 /* Main section styles */
-
-/* Card styling */
 
 .card-container {
     justify-content: center;
@@ -151,8 +144,6 @@ span.card-highlight {
     padding-left: 2.5%;
     padding-right: 2.5%;
 }
-
-/* / Card styling */
 
 .dark-container {
     background-color: #1b1b1b;
@@ -181,8 +172,6 @@ img.testemonial-img {
     padding-bottom: 0;
     margin: 0;
 }
-
-/* / Testemonials styling */
 
 /* Trainers styling */
 
@@ -216,10 +205,6 @@ img.trainer-img {
 .trainer-socials i:hover {
     color: #ffb810;
 }
-
-/* / Trainers styling */
-
-/* / Main sections styles */
 
 /* Footer styles */
 
@@ -289,8 +274,6 @@ footer p {
     border: 1.5px solid #000;
 }
 
-/* / Classes & timetables page styles */
-
 /* Contact page styles */
 
 .form-control {
@@ -312,8 +295,6 @@ footer p {
 .btn-submit:hover {
     border: 1.5px solid #000;
 }
-
-/* /Contact page styles */
 
 /* Custom media queries */
 /* Padding settings for small devices where text alignemnt changes */
