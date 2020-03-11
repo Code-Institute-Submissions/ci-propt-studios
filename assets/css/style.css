@@ -23,6 +23,11 @@ p {
     margin: 0;
 }
 
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
 /* Background colours */
 
 .bg-smokeyblack {
@@ -47,8 +52,10 @@ h1 {
     word-wrap: break-word;
 }
 
-h2 {
-    margin: 20px;
+.heading {
+    padding: 15px;
+    font-size: 2rem;
+    text-align: center !important;
 }
 
 /* Navbar styles */
@@ -121,6 +128,10 @@ h2 {
 
 /* Main section styles */
 
+.services {
+    padding: 0 15px 0 15px;
+}
+
 .card-container {
     justify-content: center;
 }
@@ -138,7 +149,6 @@ h2 {
 span.card-highlight {
     color: #ffb810;
 }
-
 
 .card-img-top {
     padding-left: 2.5%;
