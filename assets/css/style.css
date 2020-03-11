@@ -331,7 +331,8 @@ footer p {
     h1 {
         font-size: 300%;
     }
-    
+
+    form,
     h1,
     .lead {
         padding: 0 15px 0 15px;
