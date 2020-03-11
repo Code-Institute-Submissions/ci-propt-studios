@@ -136,6 +136,7 @@ h1 {
     justify-content: center;
 }
 
+.card-classes,
 .card {
     width: 100%;
     border: none;
@@ -143,7 +144,7 @@ h1 {
 
 .card-title {
     font-weight: 600;
-    font-size: 175%;
+    font-size: 2em;
 }
 
 span.card-highlight {
