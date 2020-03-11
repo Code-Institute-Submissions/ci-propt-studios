@@ -54,7 +54,7 @@ h1 {
 
 .heading {
     padding: 15px;
-    font-size: 2rem;
+    font-size: 175%;
     text-align: center !important;
 }
 
@@ -326,5 +326,14 @@ footer p {
 
     img.testemonial-img {
         width: 125px;
+    }
+
+    h1 {
+        font-size: 300%;
+    }
+    
+    h1,
+    .lead {
+        padding: 0 15px 0 15px;
     }
 }
