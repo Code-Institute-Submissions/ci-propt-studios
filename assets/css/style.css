@@ -120,10 +120,16 @@ h1 {
     width: 70%;
 }
 
+.img-gallery,
 .img-classes,
 .img-contact {
     height: 85%;
     width: 70%;
+}
+
+.img-classes,
+.img-gallery {
+    padding-top: 5%;
 }
 
 /* Main section styles */
