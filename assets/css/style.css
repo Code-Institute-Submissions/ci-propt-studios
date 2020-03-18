@@ -4,10 +4,7 @@
 /* General styles */
 
 html {
-    scroll-behavior: smooth;
-}
-
-body {
+    scroll-behavior: smooth; 
     overflow-x: hidden;
 }
 
@@ -23,6 +20,7 @@ p {
     margin: 0;
 }
 
+.row,
 .container-fluid {
     margin: 0;
     padding: 0;
@@ -134,9 +132,6 @@ h1 {
 
 /* Main section styles */
 
-.services {
-    padding: 0 15px 0 15px;
-}
 
 .card-container {
     justify-content: center;
@@ -177,7 +172,7 @@ img.testemonial-img {
 
 .testemonial,
 .testemonial-content {
-    padding: 20px;
+    padding: 15px;
     margin: 0;
 }
 
@@ -228,6 +223,7 @@ img.trainer-img {
 .footer-container {
     background-color: #1b1b1b;
     padding: 0;
+    margin: 0;
 }
 
 footer h3 {
@@ -238,25 +234,16 @@ footer h3 {
     font-size: 130%;
 }
 
-footer p {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    font-size: 75%;
-}
 
 .footer-logo {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    height: 50px;
+    margin: 30px 0 0 30px;
+    padding-right: 0;
+    height: 75px;
     width: auto;
 }
 
 .footer-socials {
-    padding-top: 2.5vh;
+    padding: 75px 30px 0 30px;
 }
 
 .footer-socials i {
@@ -267,6 +254,20 @@ footer p {
 
 .footer-socials i:hover {
     color: #ffb810;
+}
+
+.slogan,
+.footer-details {
+    color: white;
+    font-size: 100%;
+    margin: 15px 0 15px 30px;
+    padding-right: 0;
+}
+
+.socials-header {
+    color: #fff;
+    font-size: 125%;
+    padding-bottom: 15px;
 }
 
 /* Footer styles */
@@ -321,8 +322,13 @@ footer p {
         margin: 0;
     }
 
+    .slogan,
+    .footer-details {
+        margin-left: 0;
+    }
+
     .footer-socials {
-        padding-top: 0;
+        padding: 0;
     }
 
     .card-text {
@@ -335,7 +341,7 @@ footer p {
     }
 
     h1 {
-        font-size: 300%;
+        font-size: 250%;
     }
 
     form,
