@@ -292,6 +292,21 @@ footer h3 {
     border: 1.5px solid #000;
 }
 
+/* Gallery page styles */
+
+.gallery-container {
+    padding: 0 0 15px 0;
+    margin:0;
+}
+
+.img-fluid {
+    padding: 15px;
+}
+
+.gallery-container .col-lg-6 {
+    padding: 0;
+}
+
 /* Contact page styles */
 
 .form-control {
@@ -349,4 +364,5 @@ footer h3 {
     .lead {
         padding: 0 15px 0 15px;
     }
+
 }
