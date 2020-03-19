@@ -270,7 +270,15 @@ footer h3 {
     padding-bottom: 15px;
 }
 
-/* Footer styles */
+.copyright {
+    background-color: #1b1b1b;
+    color: #fff;
+    padding: 10px;
+}
+
+.copyright a {
+    color: #ffb810;
+}
 
 /* Classes & timetables page styles */
 

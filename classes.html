@@ -41,8 +41,10 @@
             <div class="row jumbotron-container">
                 <div class="col-sm-12 col-lg-7 callout-container">
                     <div class="callout-content text-center text-md-left">
-                        <h1>Our <span class="text-highlight">classes & timetable</span></h1>
-                        <p class="lead">Part time working? Full-time mammy? We have a time slot to suit</p>
+                        <h1>Our <span class="text-highlight">classes &
+                                timetable</span></h1>
+                        <p class="lead">Part time working? Full-time mammy?
+                            We have a time slot to suit</p>
                     </div>
                 </div>
                 <div class="d-none d-lg-block col-5 image-container">
@@ -61,7 +63,8 @@
             <div class="row">
                 <div class="col-sm-12 col-lg-3 card-container text-center">
                     <div class="card">
-                        <img src="assets/images/cards/classes1.jpg" class="card-img-top" alt="Close up shot of feet on treadmill">
+                        <img src="assets/images/cards/classes1.jpg" class="card-img-top"
+                            alt="Close up shot of feet on treadmill">
                         <div class="card-body">
                             <header class="card-title">Cardio Focused</header>
                             <p class="card-text">Sweat your way to glory! Our cardio classes are great for those
@@ -71,7 +74,8 @@
                 </div>
                 <div class="col-sm-12 col-lg-3 card-container text-center">
                     <div class="card">
-                        <img src="assets/images/cards/classes2.jpg" class="card-img-top" alt="Woman using a leg press excercise machine">
+                        <img src="assets/images/cards/classes2.jpg" class="card-img-top"
+                            alt="Woman using a leg press excercise machine">
                         <div class="card-body">
                             <header class="card-title">Strength Focused</header>
                             <p class="card-text">Build muscle and feel great! Our strength classes are great for
@@ -81,7 +85,8 @@
                 </div>
                 <div class="col-sm-12 col-lg-3 card-container text-center">
                     <div class="card">
-                        <img src="assets/images/cards/classes3.jpg" class="card-img-top" alt="Two men standing against a wall smiling">
+                        <img src="assets/images/cards/classes3.jpg" class="card-img-top"
+                            alt="Two men standing against a wall smiling">
                         <div class="card-body">
                             <header class="card-title">BroCamp</header>
                             <p class="card-text">BroCamp is our class specifically targeted toward the lads with a
@@ -91,7 +96,8 @@
                 </div>
                 <div class="col-sm-12 col-lg-3 card-container text-center">
                     <div class="card">
-                        <img src="assets/images/cards/classes4.jpg" class="card-img-top" alt="Group of people with their back turned towards the camera">
+                        <img src="assets/images/cards/classes4.jpg" class="card-img-top"
+                            alt="Group of people with their back turned towards the camera">
                         <div class="card-body">
                             <header class="card-title">Teen Fit</header>
                             <p class="card-text">Teen Fit is a class targeted towards teenagers. You know what they
@@ -104,7 +110,7 @@
         <section class="timetable">
             <div class="dark-container">
                 <header class="heading text-center">Our timetable</header>
-                <div class="row text-center">
+                <div class="row text-center" data-aos="fade-up" data-aos-duration="1000">
                     <div class="mx-auto">
                         <img src="./assets/images/timetable.jpg" alt="Classes timetable"
                             class="img-fluid timetable-image">
@@ -114,6 +120,7 @@
                             timetable</button>
                     </div>
                 </div>
+            </div>
         </section>
     </main>
     <!-- / Main content -->
@@ -135,6 +142,9 @@
                 </div>
             </div>
         </div>
+        <div class="copyright text-center">
+            Designed and developed by <a href="https://github.com/ib-skoric/">Ivan Branimir Skoric</a> <br> (C) 2020 All
+            rights reserved
         </div>
     </footer>
     <!-- / Footer -->
@@ -150,8 +160,12 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- This script is part of Animate on scroll and prevents animations from happening over and over -->
     <script>
-        AOS.init();
+        AOS.init( {
+            once: true,
+        }
+        );
     </script>
 </body>
 

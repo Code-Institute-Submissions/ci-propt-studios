@@ -59,13 +59,18 @@
             <header class="heading text-center">Our gallery</header>
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="assets/images/gallery/gallery1.jpg" alt="Three women in a yoga class" class="img-fluid pt-0">
-                    <img src="assets/images/gallery/gallery4.jpg" alt="Man and a woman doing rope slam excercise" class="img-fluid">
-                    <img src="assets/images/gallery/gallery2.jpg" alt="Personal trainer supervising a woman during a workout" class="img-fluid">
+                    <img src="assets/images/gallery/gallery1.jpg" alt="Three women in a yoga class"
+                        class="img-fluid pt-0">
+                    <img src="assets/images/gallery/gallery4.jpg" alt="Man and a woman doing rope slam excercise"
+                        class="img-fluid" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="assets/images/gallery/gallery2.jpg"
+                        alt="Personal trainer supervising a woman during a workout" class="img-fluid" data-aos="zoom-in" data-aos-duration="1000">
                 </div>
                 <div class="col-lg-6">
-                    <img src="assets/images/gallery/gallery3.jpg" alt="Dumbbell rack with dumbbells" class="img-fluid pt-0">
-                    <img src="assets/images/gallery/gallery6.jpg" alt="Six women standing with their hands up doing weight excercises" class="img-fluid">
+                    <img src="assets/images/gallery/gallery3.jpg" alt="Dumbbell rack with dumbbells"
+                        class="img-fluid pt-0">
+                    <img src="assets/images/gallery/gallery6.jpg"
+                        alt="Six women standing with their hands up doing weight excercises" class="img-fluid" data-aos="zoom-in" data-aos-duration="1000">
                 </div>
         </section>
     </main>
@@ -88,7 +93,10 @@
                     <a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-        </div>
+            <div class="copyright text-center">
+                Designed and developed by <a href="https://github.com/ib-skoric/">Ivan Branimir Skoric</a> <br> (C) 2020
+                All rights reserved
+            </div>
         </div>
     </footer>
     <!-- / Footer -->
@@ -103,8 +111,12 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- This script is part of Animate on scroll and prevents animations from happening over and over -->
     <script>
-        AOS.init();
+        AOS.init( {
+            once: true,
+        }
+        );
     </script>
 </body>
 

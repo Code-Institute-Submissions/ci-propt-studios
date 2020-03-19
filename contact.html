@@ -94,7 +94,8 @@
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.0873321406823!2d-6.445639966934202!3d53.41170235809402!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xae84879bf6faaaa9!2sPRO%20PT%20Studios!5e0!3m2!1sen!2sus!4v1582480301861!5m2!1sen!2sus"
                                 width="100%" height="450px" frameborder="0"
-                                style="padding: 0px 20px 0 20px; margin-bottom: 15px;" allowfullscreen="no" title="ProPT Studios Google Maps location"></iframe>
+                                style="padding: 0px 20px 0 20px; margin-bottom: 15px;" allowfullscreen="no"
+                                title="ProPT Studios Google Maps location"></iframe>
                         </div>
                     </div>
                 </div>
@@ -120,6 +121,9 @@
                 </div>
             </div>
         </div>
+        <div class="copyright text-center">
+            Designed and developed by <a href="https://github.com/ib-skoric/">Ivan Branimir Skoric</a> <br> (C) 2020 All
+            rights reserved
         </div>
     </footer>
     <!-- / Footer -->
@@ -134,8 +138,12 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- This script is part of Animate on scroll and prevents animations from happening over and over -->
     <script>
-        AOS.init();
+        AOS.init( {
+            once: true,
+        }
+        );
     </script>
 </body>
 
