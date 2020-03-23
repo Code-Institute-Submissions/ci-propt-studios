@@ -7,6 +7,10 @@ This website prevides overview of services, team as well as studio location, cla
  
 ## Live demo
 
+Live demo of the website can be found at https://ib-skoric.github.io/ci-propt-studios/ 
+
+![Responsive showcase image of ProPT website](assets/images/documentation/resposive-showcase.png "Logo Title Text 1")
+
 
 ## UX
 
@@ -80,9 +84,10 @@ After professional photographs are done, the stock photographs currently on the 
 
 1. HTML5
 2. CSS3
-3. Bootstrap v4.4.1
-4. JavaScript - *see Credits*
-5. Animate on Scroll (AOS) - https://github.com/michalsnik/aos 
+3. Bootstrap v4.4.1 - https://getbootstrap.com/
+4. Font Awesome - https://fontawesome.com/start
+5. JavaScript - *see Credits*
+6. Animate on Scroll (AOS) - https://github.com/michalsnik/aos 
 
 ## Testing
 
@@ -103,8 +108,8 @@ This has been tested using (all on Macbook Pro with macOS 10.15.3):
 + Microsoft Edge for Mac 80.0.361.66
 
 + Google Chrome on Android (Samsung Galaxy S10+) 80.0.3987.149
-+ Safari (Apple iPhone XR) 
-+ Safari (Apple iPad XX)
++ Safari (Apple iPhone XR) - TBC
++ Safari (Apple iPad XX) - TBC
 + Internet Explorer 10 - via https://www.ieonchrome.com/ 
 + Internet Explorer 11 - via https://www.ieonchrome.com/
 
@@ -115,9 +120,26 @@ This has been tested using (all on Macbook Pro with macOS 10.15.3):
 
 ### Content
 
+All textual content on the website has been written my me.
 
 ### Media
 
+Logo has been sourced from [PrPT's Facebok page](https://www.facebook.com/proptstudios/)
+
+Photos have been sourced from [Pexels](https://www.pexels.com/). 
+
+SVG Illustrations used in jumbotrons have been sourced from [Undraw](https://undraw.co/illustrations). 
+
+GIMP 2.10 Image editor has used to apply different effects to images & Sketch 61 for editing SVG files. 
 
 ### Acknowledgements
+
+To animate elements Animate on Scroll library's been used - https://github.com/michalsnik/aos.
+
+Code snippet tutorial on how to use inline JavaScript for a button to mimic link opening on click has been found [here](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html).
+
+Code snippet tutorial on how to use inline JavaScript for a button to scroll down to a certain seciton on the website has been found [here](https://stackoverflow.com/questions/16349490/html-css-buttons-that-scroll-down-to-different-div-sections-on-a-webpage).
+
+Code for embeded Google Maps has been generated using [maps.ie Create a map tool](https://www.maps.ie/create-google-map/).
+
 
