@@ -3,7 +3,7 @@
 
 ProPT Studios is a professional personal training studio based in Clonee, Co Meath.
 
-This website prevides overview of services, team as well as studio location, classes timetable & contact 
+This website provides an overview of services, the team as well as studio location, classes timetable & contact 
  
 ## Live demo
 
@@ -20,25 +20,25 @@ As a prospective client, I want to see what this gym offers, what do people say 
 
 As a prospective and current client, I wish to be able to view the time table and book a slot online. 
 
-As a potential client I want to contact the team because I have some additional questions.
+As a potential client, I want to contact the team because I have some additional questions.
 
 ### Strategy
 
-The main design goal is to make important information accesible to new/existing clients while mainataining clean and modern look.
+The main design goal is to make important information accessible to new/existing clients while maintaining a clean and modern look.
 
 ### Scope
 
-For the prospective clients, website offers insight into what the gym offers & who the trainers are. For the existing clietns, the website offers information about the classes & offers curretnly avaialable.
+For the prospective clients, the website offers insight into what the gym offers & who the trainers are. For the existing clients, the website offers information about the classes & offers currently available.
 
 ### Structure
 
-Home page displays key 'features' of the gym under the 'What we offer' section.
-This is followed by the testemonials of those that are current gym goers.
+The home page displays key 'features' of the gym under the 'What we offer' section.
+This is followed by the testimonials of those that are current gym-goers.
 After which the user can see who the trainers are and finally where the gym is located. 
 
-Classes & timetable offers the user a overwiew of classes the gym currently does as well as the timetable for the week. Below this, the user can read frequently asked questions & their answers.
+Classes & timetable offers the user an overview of classes the gym currently does as well as the timetable for the week. Below this, the user can read frequently asked questions & their answers.
 
-Contact us page provides a form for users to contact the trainers and to ask any additonal questions regarding the gym and what it offers
+Contact us page provides a form for users to contact the trainers and to ask any additional questions regarding the gym and what it offers
 
 ### Skeleton
 
@@ -68,7 +68,7 @@ Font used throughout is Google font's Lato - https://fonts.google.com/specimen/L
 
 ### Existing Features
 
-ProPT studios, until now, did not have a website, so there were no existing fetures.
+ProPT studios, until now, did not have a website, so there were no existing features.
 
 Marketing and client updates were provided through social media such as Facebook.
 
@@ -76,7 +76,7 @@ Marketing and client updates were provided through social media such as Facebook
 
 The idea is to implement a back-end for scheduling clients & bookings at a later date.
 
-The Contact us form curretnly has no action, no email gets sent after the button is clicked. The idea is to implement automatic email sending to trainer's emails after the user submits the form. 
+The Contact us form currently has no action, no email gets sent after the button is clicked. The idea is to implement automatic email sending to the trainer's emails after the user submits the form. 
 
 After professional photographs are done, the stock photographs currently on the website would be replaced. Actual social media profile links of trainers have intentionally been left out.
 
@@ -91,15 +91,15 @@ After professional photographs are done, the stock photographs currently on the 
 
 ## Testing
 
-The user is presented with a landing (home) page. Website can be navigated using the navingation links at the top-right of the page. Call to action button in the jumbotron element scrolls down the page to the 'What we offer' section of the website. Image to the right in all jumbotrons is hidden on mobile to save precious horizontal viewport space. Scrolling down the page user can see user testemonials and scrolling further profiles of trainers with their short bios. Social media profile links are located under bios (these have been intentionally left out, refer to *Features Left to Implement* section). All of these link open in new tab using _blank attribute. Scrolling down user is presented with a Google Maps map showing the gym location. Map is interactive and scales down well to all resolutions. 
+The user is presented with a landing (home) page. The website can be navigated using the navigation links at the top-right of the page. Call to action button in the jumbotron element scrolls down the page to the 'What we offer' section of the website. Image to the right in all jumbotrons is hidden on mobile to save precious horizontal viewport space. Scrolling down the page user can see user testimonials and scrolling further profiles of trainers with their short bios. Social media profile links are located under bios (these have been intentionally left out, refer to *Features Left to Implement* section). All of these links open in a new tab using _blank attribute. Scrolling down user is presented with a Google Maps map showing the gym location. The map is interactive and scales down well to all resolutions. 
 
-Under Classes and Timetables page user is presented with a range of classes the gym offers. Scrolling down, user can view the timetable which is presented in a image format. By clicking the button below the image, a new tab opens with the PNG image which user can save onto their device. 
+Under Classes and Timetables page the user is presented with a range of classes the gym offers. Scrolling down, user can view the timetable which is presented in an image format. By clicking the button below the image, a new tab opens with the PNG image which user can save onto their device. 
 
-Gallery page has no user interaction, animations of hidden from viewport images are achieved using Animate On Scroll library - refer to *Acknowledgements* section
+The gallery page has no user interaction, animations of hidden from viewport images are achieved using Animate On Scroll library - refer to *Acknowledgements* section
 
-Contact us page contains a contact us form with 5 elements - name (required), email (required), phone number (not required), drop down selection of what the user's query relates to and a text field (required). If any of the required fields are left blank, user is promted to enter them again. Similarly if the email address is in wrong fromat (ie. missing @ sign) user will be promted to enter valid email adddress. Submit button currently has no action (refer to *Features Left to Implement* section)
+Contact us page contains a contact us form with 5 elements - name (required), email (required), phone number (not required), drop-down selection of what the user's query relates to and a text field (required). If any of the required fields are left blank, the user is prompted to enter them again. Similarly, if the email address is in the wrong format (ie. missing @ sign) user will be prompted to enter valid email address. Submit button currently has no action (refer to *Features Left to Implement* section)
 
-This has been tested using (all on Macbook Pro with macOS 10.15.3):
+This has been tested using (all on 13" Macbook Pro with macOS 10.15.3 + on an external 24" display):
 
 + Google Chrome 80.0.3987.132
 + Opera 67.0.3575.79
@@ -113,18 +113,25 @@ This has been tested using (all on Macbook Pro with macOS 10.15.3):
 + Internet Explorer 10 - via https://www.ieonchrome.com/ 
 + Internet Explorer 11 - via https://www.ieonchrome.com/
 
+The website has also been tested via the [W3C Markup Validation Service](https://validator.w3.org/) & [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
 ## Deployment
 
+This website has been deployed and is hosted on GitHub Pages. It has been deployed straight from *master* branch. This has been done by navigating to the repository > Clicking on *Settings* > Scrolling down to *GitHub Pages* section > Selecting *master branch* as a source. 
+
+The page will update automatically with new/changed content once commits are pushed to the remote repo location using `git push` command. 
+
+If you wish to clone this repository, this can be done using `git clone https://github.com/ib-skoric/ci-propt-studios.git`
 
 ## Credits
 
 ### Content
 
-All textual content on the website has been written my me.
+All textual content on the website has been written by me.
 
 ### Media
 
-Logo has been sourced from [PrPT's Facebok page](https://www.facebook.com/proptstudios/)
+The logo has been sourced from [PrPT's Facebook page](https://www.facebook.com/proptstudios/)
 
 Photos have been sourced from [Pexels](https://www.pexels.com/). 
 
@@ -138,8 +145,8 @@ To animate elements Animate on Scroll library's been used - https://github.com/m
 
 Code snippet tutorial on how to use inline JavaScript for a button to mimic link opening on click has been found [here](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html).
 
-Code snippet tutorial on how to use inline JavaScript for a button to scroll down to a certain seciton on the website has been found [here](https://stackoverflow.com/questions/16349490/html-css-buttons-that-scroll-down-to-different-div-sections-on-a-webpage).
+Code snippet tutorial on how to use inline JavaScript for a button to scroll down to a certain section on the website has been found [here](https://stackoverflow.com/questions/16349490/html-css-buttons-that-scroll-down-to-different-div-sections-on-a-webpage).
 
-Code for embeded Google Maps has been generated using [maps.ie Create a map tool](https://www.maps.ie/create-google-map/).
+Code for embedded Google Maps has been generated using [maps.ie Create a map tool](https://www.maps.ie/create-google-map/).
 
 
