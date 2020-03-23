@@ -38,7 +38,13 @@ Contact us page provides a form for users to contact the trainers and to ask any
 
 ### Skeleton
 
-The wireframes go here...
+[Landing Page wireframe](assets/images/documentation/landing-wireframe.jpg)
+
+[Classes & Timetable page wireframe](assets/images/documentation/classes-wireframe.jpg)
+
+[Contact us wireframe](assets/images/documentation/contact-wireframe.jpg)
+
+Gallery page was created after a middle project review with my mentor and design was done 'on-the-fly'.
 
 ### Surface
 
@@ -56,7 +62,6 @@ Font used throughout is Google font's Lato - https://fonts.google.com/specimen/L
 
 ## Features
 
-
 ### Existing Features
 
 ProPT studios, until now, did not have a website, so there were no existing fetures.
@@ -69,14 +74,39 @@ The idea is to implement a back-end for scheduling clients & bookings at a later
 
 The Contact us form curretnly has no action, no email gets sent after the button is clicked. The idea is to implement automatic email sending to trainer's emails after the user submits the form. 
 
+After professional photographs are done, the stock photographs currently on the website would be replaced. Actual social media profile links of trainers have intentionally been left out.
+
 ## Technologies Used
 
 1. HTML5
 2. CSS3
 3. Bootstrap v4.4.1
+4. JavaScript - *see Credits*
+5. Animate on Scroll (AOS) - https://github.com/michalsnik/aos 
 
 ## Testing
 
+The user is presented with a landing (home) page. Website can be navigated using the navingation links at the top-right of the page. Call to action button in the jumbotron element scrolls down the page to the 'What we offer' section of the website. Image to the right in all jumbotrons is hidden on mobile to save precious horizontal viewport space. Scrolling down the page user can see user testemonials and scrolling further profiles of trainers with their short bios. Social media profile links are located under bios (these have been intentionally left out, refer to *Features Left to Implement* section). All of these link open in new tab using _blank attribute. Scrolling down user is presented with a Google Maps map showing the gym location. Map is interactive and scales down well to all resolutions. 
+
+Under Classes and Timetables page user is presented with a range of classes the gym offers. Scrolling down, user can view the timetable which is presented in a image format. By clicking the button below the image, a new tab opens with the PNG image which user can save onto their device. 
+
+Gallery page has no user interaction, animations of hidden from viewport images are achieved using Animate On Scroll library - refer to *Acknowledgements* section
+
+Contact us page contains a contact us form with 5 elements - name (required), email (required), phone number (not required), drop down selection of what the user's query relates to and a text field (required). If any of the required fields are left blank, user is promted to enter them again. Similarly if the email address is in wrong fromat (ie. missing @ sign) user will be promted to enter valid email adddress. Submit button currently has no action (refer to *Features Left to Implement* section)
+
+This has been tested using (all on Macbook Pro with macOS 10.15.3):
+
++ Google Chrome 80.0.3987.132
++ Opera 67.0.3575.79
++ Firefox 74.0
++ Safari 13.0.5
++ Microsoft Edge for Mac 80.0.361.66
+
++ Google Chrome on Android (Samsung Galaxy S10+) 80.0.3987.149
++ Safari (Apple iPhone XR) 
++ Safari (Apple iPad XX)
++ Internet Explorer 10 - via https://www.ieonchrome.com/ 
++ Internet Explorer 11 - via https://www.ieonchrome.com/
 
 ## Deployment
 
