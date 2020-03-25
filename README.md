@@ -97,7 +97,11 @@ Under Classes and Timetables page the user is presented with a range of classes 
 
 The gallery page has no user interaction, animations of hidden from viewport images are achieved using Animate On Scroll library - refer to *Acknowledgements* section
 
-Contact us page contains a contact us form with 5 elements - name (required), email (required), phone number (not required), drop-down selection of what the user's query relates to and a text field (required). If any of the required fields are left blank, the user is prompted to enter them again. Similarly, if the email address is in the wrong format (ie. missing @ sign) user will be prompted to enter valid email address. Submit button currently has no action (refer to *Features Left to Implement* section)
+Contact us page contains a contact us form with 5 elements - name (required), email (required), phone number (not required), drop-down selection of what the user's query relates to and a text field (required). If any of the required fields are left blank, the user is prompted to enter them again. Similarly, if the email address is in the wrong format (ie. missing @ sign) user will be prompted to enter a valid email address. Submit button currently has no action (refer to *Features Left to Implement* section)
+
+There was a bug found an all devices where there was a bit of overflow due to the jumbotron element overflowing to the right. CSS properties were accordingly adjusted to fix this.
+
+Additionally, after adding them initially, the animations would repeat themselves over and over again when user scrolls up/down the page. This was fixed by adding `once: true` under the `AOS.init({}` - this solution was found under official documentation on GitHub.
 
 This has been tested using (all on 13" Macbook Pro with macOS 10.15.3 + on an external 24" display):
 
@@ -113,7 +117,9 @@ This has been tested using (all on 13" Macbook Pro with macOS 10.15.3 + on an ex
 + Internet Explorer 10 - via https://www.ieonchrome.com/ 
 + Internet Explorer 11 - via https://www.ieonchrome.com/
 
-The website has also been tested via the [W3C Markup Validation Service](https://validator.w3.org/) & [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+The website has also been tested via the [W3C Markup Validation Service](https://validator.w3.org/) & [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+
+At first, the HTML validation was not passed due to the Google Maps iframe element having some inline CSS. This was fixed by moving the CSS to the style.css file.
 
 ## Deployment
 
