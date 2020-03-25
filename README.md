@@ -108,8 +108,8 @@ This has been tested using (all on 13" Macbook Pro with macOS 10.15.3 + on an ex
 + Microsoft Edge for Mac 80.0.361.66
 
 + Google Chrome on Android (Samsung Galaxy S10+) 80.0.3987.149
-+ Safari (Apple iPhone XR) - TBC
-+ Safari (Apple iPad XX) - TBC
++ Safari on iOSb 13.3.1 (Apple iPhone XR) 
++ Safari on iOS 8.1 (Apple iPad Air 2) 
 + Internet Explorer 10 - via https://www.ieonchrome.com/ 
 + Internet Explorer 11 - via https://www.ieonchrome.com/
 
@@ -148,5 +148,7 @@ Code snippet tutorial on how to use inline JavaScript for a button to mimic link
 Code snippet tutorial on how to use inline JavaScript for a button to scroll down to a certain section on the website has been found [here](https://stackoverflow.com/questions/16349490/html-css-buttons-that-scroll-down-to-different-div-sections-on-a-webpage).
 
 Code for embedded Google Maps has been generated using [maps.ie Create a map tool](https://www.maps.ie/create-google-map/).
+
+To create the showcase image shown under *live demo* section [techsini's Multidevice Mockup Generator](https://www.maps.ie/create-google-map/)'s been used.
 
 
