@@ -346,7 +346,8 @@ iframe {
 }
 
 /* Custom media queries */
-/* Padding settings for small devices where text alignemnt changes */
+
+/* Padding & other styling for small devices  */
 @media (max-width: 576px) {
     .callout-content {
         padding: 15px;
@@ -380,5 +381,4 @@ iframe {
     .lead {
         padding: 0 15px 0 15px;
     }
-
 }
