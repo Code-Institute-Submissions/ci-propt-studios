@@ -164,19 +164,19 @@ span.card-highlight {
     padding: 0;
 }
 
-img.testemonial-img {
+img.testimonial-img {
     width: 45%;
     border: 2px solid #ffb810;
     border-radius: 50%;
 }
 
-.testemonial,
-.testemonial-content {
+.testimonial,
+.testimonial-content {
     padding: 15px;
     margin: 0;
 }
 
-.testemonial-name {
+.testimonial-name {
     font-size: 150%;
     color: #ffb810;
     font-weight: 600;
@@ -368,7 +368,7 @@ iframe {
         padding-right: 20px;
     }
 
-    img.testemonial-img {
+    img.testimonial-img {
         width: 125px;
     }
 
