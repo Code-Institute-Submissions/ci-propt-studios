@@ -376,6 +376,10 @@ iframe {
         font-size: 250%;
     }
 
+    .img-fluid {
+        padding: 10px;
+    }
+
     form,
     h1,
     .lead {
