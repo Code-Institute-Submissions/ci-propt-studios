@@ -11,16 +11,17 @@ Live demo of the website can be found at https://ib-skoric.github.io/ci-propt-st
 
 ![Responsive showcase image of ProPT website](assets/images/documentation/resposive-showcase.png "Logo Title Text 1")
 
-
 ## UX
 
 ### User stories
 
 As a prospective client, I want to see what this gym offers, what do people say about it and who are the trainers.
 
-As a prospective and current client, I wish to be able to view the time table and book a slot online. 
+As a prospective and current client, I wish to be able to view the time table and what classes the gym offers. 
 
-As a potential client, I want to contact the team because I have some additional questions.
+As a prospective client, I want to contact the team because I have some additional questions.
+
+As a supplier, I want to see what the gym offers and what services of mine I could offer & business contact details.
 
 ### Strategy
 
@@ -54,7 +55,7 @@ Gallery page was created after a middle project review with my mentor and design
 
 Colour scheme chosen for this project reflects the ProPT branding colours.
 
-![alt text](./assets/images/documentation/colour_scheme.png "Project colour scheme")
+![Project colour scheme](./assets/images/documentation/colour_scheme.png "Project colour scheme")
 
 | Colour name       | Colour RGB Code    
 | -------------     |:-------------:| 
@@ -68,15 +69,34 @@ Font used throughout is Google font's Lato - https://fonts.google.com/specimen/L
 
 ### Existing Features
 
-ProPT studios, until now, did not have a website, so there were no existing features.
+All pages feature a top navigation bar with a logo in the top-left corner, footer that contains the gym address, phone contact details & social media links. 
+All pages feature a jumbotron with the gym's slogan 'We never repeat a workout'/page title and an appropriate illustration to the right. This illustration is only visible on desktop devices and is hidden on tablets and mobile devices. 
 
-Marketing and client updates were provided through social media such as Facebook.
+**Home Page**
+
+What we offer section is divided into 3 sections - personal training, personalised plans & group classes each with a brief description. 
+They've done it section features 3 user testimonials and their images.
+Meet the trainers section features trainer images, short bios & social media links.
+Where to find us section features a Google Maps map. 
+
+**Classes & Timetable**
+
+Our classes section is divided into 4 sections - cardio-focused, strength-focused, BroCamp & Teen Fit each with a brief description. 
+Our timetable features image of the timetable with a button to open image in a new tab - this allows users to save it and view in full size if on a mobile device
+
+**Gallery**
+
+Gallery page features 5 different images of a yoga class, people doing workouts, gym equipment etc.
+
+**Contact us**
+
+Contact us page features a contact us form with a submit button and a Google Maps map. 
 
 ### Features Left to Implement
 
 The idea is to implement a back-end for scheduling clients & bookings at a later date.
 
-The Contact us form currently has no action, no email gets sent after the button is clicked. The idea is to implement automatic email sending to the trainer's emails after the user submits the form. 
+The Contact us form currently has no action, no email gets sent after the button is clicked. The idea is to implement automatic email sending to the trainer's emails after the user submits the form. The form would also ideally have some sort of CHAPTA authentification to prevent bots from doing random submits. 
 
 After professional photographs are done, the stock photographs currently on the website would be replaced. Actual social media profile links of trainers have intentionally been left out.
 
@@ -84,10 +104,11 @@ After professional photographs are done, the stock photographs currently on the 
 
 1. HTML5
 2. CSS3
-3. Bootstrap v4.4.1 - https://getbootstrap.com/
-4. Font Awesome - https://fontawesome.com/start
+3. [Bootstrap v4.4.1](https://getbootstrap.com/)
+4. [Font Awesome](https://fontawesome.com/start)
 5. JavaScript - *see Credits*
-6. Animate on Scroll (AOS) - https://github.com/michalsnik/aos 
+6. [Animate on Scroll (AOS)](https://github.com/michalsnik/aos)
+7. [Google Fonts](https://fonts.google.com/)
 
 ## Testing
 
@@ -101,7 +122,7 @@ Contact us page contains a contact us form with 5 elements - name (required), em
 
 There was a bug found an all devices where there was a bit of overflow due to the jumbotron element overflowing to the right. CSS properties were accordingly adjusted to fix this.
 
-Additionally, after adding them initially, the animations would repeat themselves over and over again when user scrolls up/down the page. This was fixed by adding `once: true` under the `AOS.init({}` - this solution was found under official documentation on GitHub.
+Additionally, after adding them initially, the animations would repeat themselves over and over again when the user scrolls up/down the page. This was fixed by adding `once: true` under the `AOS.init({}` - this solution was found under official documentation on GitHub.
 
 This has been tested using (all on 13" Macbook Pro with macOS 10.15.3 + on an external 24" display):
 
@@ -149,12 +170,10 @@ GIMP 2.10 Image editor has used to apply different effects to images & Sketch 61
 
 To animate elements Animate on Scroll library's been used - https://github.com/michalsnik/aos.
 
-Code snippet tutorial on how to use inline JavaScript for a button to mimic link opening on click has been found [here](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html).
+Code snippet tutorial on how to use inline JavaScript for a button to mimic link opening on click has been found [here](https://stackoverflow.com/questions/11620698/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript).
 
 Code snippet tutorial on how to use inline JavaScript for a button to scroll down to a certain section on the website has been found [here](https://stackoverflow.com/questions/16349490/html-css-buttons-that-scroll-down-to-different-div-sections-on-a-webpage).
 
 Code for embedded Google Maps has been generated using [maps.ie Create a map tool](https://www.maps.ie/create-google-map/).
 
 To create the showcase image shown under *live demo* section [techsini's Multidevice Mockup Generator](https://www.maps.ie/create-google-map/)'s been used.
-
-
