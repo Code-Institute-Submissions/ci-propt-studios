@@ -390,3 +390,11 @@ iframe {
         padding: 0 15px 0 15px;
     }
 }
+
+/* Padding & other styling for medium devices  */
+
+@media (max-width: 991.98px) {
+    h1 {
+        font-size: 300%;
+    }
+}
