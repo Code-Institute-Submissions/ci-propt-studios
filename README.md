@@ -9,7 +9,7 @@ This website provides an overview of services, the team as well as studio locati
 
 Live demo of the website can be found at https://ib-skoric.github.io/ci-propt-studios/ 
 
-![Responsive showcase image of ProPT website](assets/images/documentation/resposive-showcase.png "Logo Title Text 1")
+![Responsive showcase image of ProPT website](assets/images/documentation/resposive-showcase.png "Responsive showcase image of ProPT website")
 
 ## UX
 
