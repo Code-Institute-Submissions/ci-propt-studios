@@ -95,7 +95,7 @@ h1 {
 
 .btn-cta:hover {
     background-color: #ffb810;
-    color: #fff;
+    color: #1b1b1b;
     border: 1.5px solid #000;
     border-radius: 10px;
 }
@@ -370,6 +370,10 @@ iframe {
 
     img.testemonial-img {
         width: 125px;
+    }
+
+    .btn-download {
+        width: 75%;
     }
 
     h1 {
